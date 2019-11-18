@@ -1,0 +1,1 @@
+console.log('copy to dist js')
