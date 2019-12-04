@@ -3,4 +3,5 @@
 **Use**
 * npm install
 
-
+**Run**
+* gulp
