@@ -1,7 +1,7 @@
 {
-  "name": "rosatel",
+  "name": "muffstrading",
   "version": "1.0.0",
-  "description": "A theme for Rosatel",
+  "description": "A theme for Mufftrading",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -37,6 +37,6 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.14.1"
   }
 }

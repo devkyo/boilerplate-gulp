@@ -1,0 +1,27 @@
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  font-family: var(--firasans);
+  &__button {
+    background: red;
+    width: 10px;
+    height: 10px;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 .8em;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+  }
+  &__checkbox {
+    display: none;
+  }
+  &__button {
+    display: none;
+  }
+}
