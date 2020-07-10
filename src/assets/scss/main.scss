@@ -1,0 +1,12 @@
+@import 'welcome';
+@import 'keyframes';
+
+:root {
+  --primaryColor: #f35626;
+  --lastColor: #feab3a;
+}
+html { overflow: auto; }
+body {
+  animation: play 1s infinite linear;
+  background: linear-gradient(92deg, var(--primaryColor) 0%, var(--lastColor) 100%);
+}
