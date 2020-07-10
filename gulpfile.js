@@ -102,7 +102,7 @@ const watch = ()=>{
       server: './dist/',
       //use proxy when working in php files
       // proxy: "project.test/src"
-      // port: 3333
+      port: 80
 	});
       gulp.watch(paths.scripts.src, scripts);
       gulp.watch(paths.styles.src, styles);
