@@ -110,6 +110,7 @@ const watch = ()=>{
       gulp.watch(paths.scripts.src).on('change', browserSync.reload);
       gulp.watch(paths.html.src).on('change', browserSync.reload);
       gulp.watch(paths.html.dest).on('change', browserSync.reload);
+	gulp.watch(paths.images.dest).on('change', browserSync.reload);
    
 }
 
